@@ -6,8 +6,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
-import com.fr.adaming.service.test.ProjetServiceTest;
-import com.fr.adaming.service.test.SocieteSeviceTest;
+//import com.fr.adaming.service.test.ProjetServiceTest;
+//import com.fr.adaming.service.test.SocieteSeviceTest;
 
 @SpringBootApplication
 public class ProjetSpringBootApplication {
@@ -20,12 +20,12 @@ public class ProjetSpringBootApplication {
 		ApplicationContext context = SpringApplication.run(ProjetSpringBootApplication.class, args);
 	
 		
-		SocieteSeviceTest societeServiceTest = context.getBean(SocieteSeviceTest.class);
+		//SocieteSeviceTest societeServiceTest = context.getBean(SocieteSeviceTest.class);
 		
-		ProjetServiceTest projetServiceTest = context.getBean(ProjetServiceTest.class);
+		//ProjetServiceTest projetServiceTest = context.getBean(ProjetServiceTest.class);
 	
 	
-	projetServiceTest.testAjouter();
+//	projetServiceTest.testAjouter();
 //	projetServiceTest.testAjouter_IfExist();
 //	projetServiceTest.testModifier();
 //	projetServiceTest.testModifier_idDontExist();
@@ -43,9 +43,9 @@ public class ProjetSpringBootApplication {
 //	projetServiceTest.testRestaurer();
 	
 	
-	societeServiceTest.testAjouter();
-	logger.warn("coucou");
-	logger.debug("coucou");
+//	societeServiceTest.testAjouter();
+//	logger.warn("coucou");
+//	logger.debug("coucou");
 //	societeServiceTest.testAjouter_IfExist();
 //	societeServiceTest.testModifier();
 //	societeServiceTest.testModifier_idDontExist();

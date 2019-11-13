@@ -30,4 +30,6 @@ public class Client extends User {
 	
 	@OneToMany(mappedBy = "clientC")
 	private Set<Contrat> contratsC;
+
+		
 }

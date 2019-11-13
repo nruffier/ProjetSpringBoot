@@ -39,3 +39,55 @@
 2019-11-12 17:04:57.783 DEBUG ROG-G752VY --- [           main] c.f.a.s.t.SocieteSeviceTest              : Coucou
 2019-11-12 17:04:57.794  WARN ROG-G752VY --- [           main] c.f.a.ProjetSpringBootApplication        : coucou
 2019-11-12 17:04:57.795 DEBUG ROG-G752VY --- [           main] c.f.a.ProjetSpringBootApplication        : coucou
+2019-11-13 15:58:08.099  INFO ROG-G752VY --- [           main] c.f.a.ProjetSpringBootApplicationTests   : Starting ProjetSpringBootApplicationTests on ROG-G752VY with PID 15828 (started by BloodStyx in C:\Users\BloodStyx\eclipse\WorkspaceSpring\ProjetSpringBoot)
+2019-11-13 15:58:08.104 DEBUG ROG-G752VY --- [           main] c.f.a.ProjetSpringBootApplicationTests   : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-11-13 15:58:08.105  INFO ROG-G752VY --- [           main] c.f.a.ProjetSpringBootApplicationTests   : No active profile set, falling back to default profiles: default
+2019-11-13 15:58:16.653  INFO ROG-G752VY --- [           main] c.f.a.ProjetSpringBootApplicationTests   : Started ProjetSpringBootApplicationTests in 9.018 seconds (JVM running for 13.942)
+2019-11-13 16:24:11.739  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Starting ClientServiceTest on ROG-G752VY with PID 22908 (started by BloodStyx in C:\Users\BloodStyx\eclipse\WorkspaceSpring\ProjetSpringBoot)
+2019-11-13 16:24:11.743 DEBUG ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-11-13 16:24:11.744  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : No active profile set, falling back to default profiles: default
+2019-11-13 16:24:18.997  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Started ClientServiceTest in 7.677 seconds (JVM running for 11.828)
+2019-11-13 16:27:00.921  INFO ROG-G752VY --- [           main] c.f.a.ProjetSpringBootApplicationTests   : Starting ProjetSpringBootApplicationTests on ROG-G752VY with PID 7756 (started by BloodStyx in C:\Users\BloodStyx\eclipse\WorkspaceSpring\ProjetSpringBoot)
+2019-11-13 16:27:00.926 DEBUG ROG-G752VY --- [           main] c.f.a.ProjetSpringBootApplicationTests   : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-11-13 16:27:00.926  INFO ROG-G752VY --- [           main] c.f.a.ProjetSpringBootApplicationTests   : No active profile set, falling back to default profiles: default
+2019-11-13 16:27:08.298  INFO ROG-G752VY --- [           main] c.f.a.ProjetSpringBootApplicationTests   : Started ProjetSpringBootApplicationTests in 7.795 seconds (JVM running for 11.877)
+2019-11-13 16:28:11.639  INFO ROG-G752VY --- [           main] c.f.a.ProjetSpringBootApplicationTests   : Starting ProjetSpringBootApplicationTests on ROG-G752VY with PID 20820 (started by BloodStyx in C:\Users\BloodStyx\eclipse\WorkspaceSpring\ProjetSpringBoot)
+2019-11-13 16:28:11.643 DEBUG ROG-G752VY --- [           main] c.f.a.ProjetSpringBootApplicationTests   : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-11-13 16:28:11.644  INFO ROG-G752VY --- [           main] c.f.a.ProjetSpringBootApplicationTests   : No active profile set, falling back to default profiles: default
+2019-11-13 16:28:19.152  INFO ROG-G752VY --- [           main] c.f.a.ProjetSpringBootApplicationTests   : Started ProjetSpringBootApplicationTests in 7.927 seconds (JVM running for 11.998)
+2019-11-13 16:50:45.080  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Starting ClientServiceTest on ROG-G752VY with PID 24816 (started by BloodStyx in C:\Users\BloodStyx\eclipse\WorkspaceSpring\ProjetSpringBoot)
+2019-11-13 16:50:45.085 DEBUG ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-11-13 16:50:45.086  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : No active profile set, falling back to default profiles: default
+2019-11-13 16:50:52.409  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Started ClientServiceTest in 7.738 seconds (JVM running for 11.82)
+2019-11-13 16:53:25.712  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Starting ClientServiceTest on ROG-G752VY with PID 10124 (started by BloodStyx in C:\Users\BloodStyx\eclipse\WorkspaceSpring\ProjetSpringBoot)
+2019-11-13 16:53:25.717 DEBUG ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-11-13 16:53:25.718  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : No active profile set, falling back to default profiles: default
+2019-11-13 16:53:32.879  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Started ClientServiceTest in 7.578 seconds (JVM running for 11.68)
+2019-11-13 16:59:34.495  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Starting ClientServiceTest on ROG-G752VY with PID 15144 (started by BloodStyx in C:\Users\BloodStyx\eclipse\WorkspaceSpring\ProjetSpringBoot)
+2019-11-13 16:59:34.500 DEBUG ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-11-13 16:59:34.500  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : No active profile set, falling back to default profiles: default
+2019-11-13 16:59:41.689  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Started ClientServiceTest in 7.613 seconds (JVM running for 11.732)
+2019-11-13 17:01:11.316  INFO ROG-G752VY --- [           main] c.f.a.ProjetSpringBootApplicationTests   : Starting ProjetSpringBootApplicationTests on ROG-G752VY with PID 15696 (started by BloodStyx in C:\Users\BloodStyx\eclipse\WorkspaceSpring\ProjetSpringBoot)
+2019-11-13 17:01:11.320 DEBUG ROG-G752VY --- [           main] c.f.a.ProjetSpringBootApplicationTests   : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-11-13 17:01:11.320  INFO ROG-G752VY --- [           main] c.f.a.ProjetSpringBootApplicationTests   : No active profile set, falling back to default profiles: default
+2019-11-13 17:01:18.873  INFO ROG-G752VY --- [           main] c.f.a.ProjetSpringBootApplicationTests   : Started ProjetSpringBootApplicationTests in 7.96 seconds (JVM running for 12.137)
+2019-11-13 17:02:02.879  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Starting ClientServiceTest on ROG-G752VY with PID 10524 (started by BloodStyx in C:\Users\BloodStyx\eclipse\WorkspaceSpring\ProjetSpringBoot)
+2019-11-13 17:02:02.883 DEBUG ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-11-13 17:02:02.884  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : No active profile set, falling back to default profiles: default
+2019-11-13 17:02:10.005  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Started ClientServiceTest in 7.53 seconds (JVM running for 11.625)
+2019-11-13 17:07:07.053  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Starting ClientServiceTest on ROG-G752VY with PID 4968 (started by BloodStyx in C:\Users\BloodStyx\eclipse\WorkspaceSpring\ProjetSpringBoot)
+2019-11-13 17:07:07.057 DEBUG ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-11-13 17:07:07.058  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : No active profile set, falling back to default profiles: default
+2019-11-13 17:07:14.347  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Started ClientServiceTest in 7.702 seconds (JVM running for 11.812)
+2019-11-13 17:08:25.019  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Starting ClientServiceTest on ROG-G752VY with PID 11428 (started by BloodStyx in C:\Users\BloodStyx\eclipse\WorkspaceSpring\ProjetSpringBoot)
+2019-11-13 17:08:25.035 DEBUG ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-11-13 17:08:25.035  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : No active profile set, falling back to default profiles: default
+2019-11-13 17:08:32.038  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Started ClientServiceTest in 7.404 seconds (JVM running for 11.276)
+2019-11-13 17:10:48.306  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Starting ClientServiceTest on ROG-G752VY with PID 13560 (started by BloodStyx in C:\Users\BloodStyx\eclipse\WorkspaceSpring\ProjetSpringBoot)
+2019-11-13 17:10:48.321 DEBUG ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-11-13 17:10:48.321  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : No active profile set, falling back to default profiles: default
+2019-11-13 17:10:55.254  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Started ClientServiceTest in 7.331 seconds (JVM running for 11.179)
+2019-11-13 17:19:55.966  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Starting ClientServiceTest on ROG-G752VY with PID 1908 (started by BloodStyx in C:\Users\BloodStyx\eclipse\WorkspaceSpring\ProjetSpringBoot)
+2019-11-13 17:19:55.966 DEBUG ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-11-13 17:19:55.966  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : No active profile set, falling back to default profiles: default
+2019-11-13 17:20:02.890  INFO ROG-G752VY --- [           main] c.f.a.s.ClientServiceTest                : Started ClientServiceTest in 7.324 seconds (JVM running for 11.247)

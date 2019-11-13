@@ -20,6 +20,7 @@ import lombok.ToString;
 @Getter	@Setter @AllArgsConstructor @NoArgsConstructor @ToString
 public abstract class User extends AbstractEntity {
 
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer id;

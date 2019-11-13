@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.fr.adaming.dto.LoginDto;
+import com.fr.adaming.dto.RegisterDto;
 import com.fr.adaming.entity.Employee;
 import com.fr.adaming.service.EmployeeService;
 
@@ -81,8 +82,22 @@ public class EmployeeController {
 
 	@PostMapping(path = "/login")
 	public String login(@RequestBody LoginDto dto) {
-		System.out.println(dto.getEmail());
 		if (service.login(dto.getEmail(), dto.getPwd()) != null) {
+			return "SUCCES";
+		} else {
+			return "FAIL";
+		}
+	}
+	
+	//TODO Register
+	@PostMapping(path = "/register")
+	public String register(@RequestBody RegisterDto dto) {
+	Employee employee = new Employee();
+		employee.setNom(dto.getNom());
+		employee.setEmail(dto.getEmail());
+		employee.setPwd(dto.getPwd());
+		employee.setDateRecrutement(dto.getDateRecrutement());
+		if (service.ajouter(employee) != null) {
 			return "SUCCES";
 		} else {
 			return "FAIL";
