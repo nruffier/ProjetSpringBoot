@@ -4,11 +4,13 @@ import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import javax.persistence.RollbackException;
-
+import org.junit.Rule;
 import org.junit.jupiter.api.Test;
+import org.junit.rules.ExpectedException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+//import org.springframework.test.context.jdbc.Sql;
+//import org.springframework.test.context.jdbc.Sql.ExecutionPhase;
 import org.springframework.transaction.TransactionSystemException;
 
 import com.fr.adaming.entity.Client;
@@ -21,6 +23,8 @@ public class ClientServiceTest {
 	private ClientService service;
 
 	@Test
+	//@Sql(statements = {"truncate user", "show tables"}, executionPhase = ExecutionPhase.BEFORE_TEST_METHOD)
+	//@Sql(statements = "delete from user where id=1", executionPhase = ExecutionPhase.AFTER_TEST_METHOD)
 	public void createValidClient_shouldReturnUserWithIdNotNull() {
 		// préparer input
 		Client c = new Client();
@@ -57,7 +61,7 @@ public class ClientServiceTest {
 		
 	}
 	@Test
-	public void createNotValidClient_shouldReturnRollbackException() {
+	public void createNotValidClient_shouldReturnTransactionSystemException() {
 		Client c = new Client();
 		c.setNom("nom1");
 		c.setEmail("emailpasvalidelol");
@@ -70,8 +74,24 @@ public class ClientServiceTest {
 
 	}
 	
+	@Rule
+	public ExpectedException exception = ExpectedException.none();
 	
-// Pour faire une attente d'excpetion : 
-//
-//	exception.expect
+	//Avec une autre method pour une exception
+	@Test
+	public void createNotValidClient_shouldReturnTransactionSystemException2() {
+		Client c = new Client();
+		c.setNom("nom1");
+		c.setEmail("emailpasvalidelol");
+		c.setPrenom("prenom1");
+		c.setNomEntrprise("bla");
+		c.setNomRepresentant("blabla");
+		c.setDomaine("bfeuzize");
+		
+		
+		exception.expect(TransactionSystemException.class);
+		exception.expectMessage("Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction");
+		service.ajouter(c);
+	}
+	
 }
